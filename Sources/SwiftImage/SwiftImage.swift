@@ -52,7 +52,7 @@ public struct ImageDescriptor {
 }
 
 public struct ImageEncoder {
-    public func encodeImage(toPath path: String, withFormat format: ImageFormat, imageDescriptor: ImageDescriptor) throws {
+    public static func encodeImage(toPath path: String, withFormat format: ImageFormat, imageDescriptor: ImageDescriptor) throws {
         let imageData: Data
         
         switch format {
