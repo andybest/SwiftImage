@@ -25,9 +25,9 @@
 import Foundation
 
 public struct PixelData {
-    var r: UInt8
-    var g: UInt8
-    var b: UInt8
+    public var r: UInt8
+    public var g: UInt8
+    public var b: UInt8
 }
 
 public enum ImageFormat {
