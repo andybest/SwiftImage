@@ -49,6 +49,13 @@ public struct ImageDescriptor {
     public let height: Int
     public let bitDepth: BitDepth
     public let pixels: [PixelData]
+    
+    public init(width: Int, height: Int, bitDepth: BitDepth, pixels: [PixelData]) {
+        self.width = width
+        self.height = height
+        self.bitDepth = bitDepth
+        self.pixels = pixels
+    }
 }
 
 public struct ImageEncoder {
